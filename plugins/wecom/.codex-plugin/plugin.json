@@ -1,0 +1,19 @@
+{
+  "name": "wecom",
+  "version": "1.0.0",
+  "description": "经你授权的企业微信机器人看群聊、日程、会议、待办、通讯录、文档和邮件",
+  "author": { "name": "SFW" },
+  "license": "Proprietary",
+  "keywords": ["企业微信", "办公账号"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "企业微信",
+    "developerName": "SFW",
+    "shortDescription": "经你授权的企业微信机器人看群聊、日程、会议、待办、通讯录、文档和邮件",
+    "longDescription": "经你授权的企业微信机器人看群聊、日程、会议、待办、通讯录、文档和邮件。装好后右侧栏「+」里会出现企业微信标签页，在那里用你本人的账号登录。",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "brandColor": "#2B7BEA"
+  },
+  "sfwSurface": { "rightPanel": "wecom" }
+}

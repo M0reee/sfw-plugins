@@ -1,0 +1,19 @@
+{
+  "name": "lark",
+  "version": "1.0.0",
+  "description": "用你本人的飞书账号看会话、消息、日程和妙记",
+  "author": { "name": "SFW" },
+  "license": "Proprietary",
+  "keywords": ["飞书", "办公账号"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "飞书",
+    "developerName": "SFW",
+    "shortDescription": "用你本人的飞书账号看会话、消息、日程和妙记",
+    "longDescription": "用你本人的飞书账号看会话、消息、日程和妙记。装好后右侧栏「+」里会出现飞书标签页，在那里用你本人的账号登录。",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "brandColor": "#3370FF"
+  },
+  "sfwSurface": { "rightPanel": "lark" }
+}

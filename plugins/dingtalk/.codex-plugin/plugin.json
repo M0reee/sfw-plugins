@@ -1,0 +1,19 @@
+{
+  "name": "dingtalk",
+  "version": "1.0.0",
+  "description": "用你本人的钉钉账号看会话、消息、日程、待办和待审批",
+  "author": { "name": "SFW" },
+  "license": "Proprietary",
+  "keywords": ["钉钉", "办公账号"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "钉钉",
+    "developerName": "SFW",
+    "shortDescription": "用你本人的钉钉账号看会话、消息、日程、待办和待审批",
+    "longDescription": "用你本人的钉钉账号看会话、消息、日程、待办和待审批。装好后右侧栏「+」里会出现钉钉标签页，在那里用你本人的账号登录。",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "brandColor": "#0089FF"
+  },
+  "sfwSurface": { "rightPanel": "dingtalk" }
+}
