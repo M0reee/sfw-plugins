@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "ontology": {
+      "command": "/bin/sh",
+      "args": [
+        "./bin/ontology-bridge"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "SFW_HOME",
+        "SFW_STATE_DB",
+        "SFW_PROFILE"
+      ],
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 60
+    }
+  }
+}
