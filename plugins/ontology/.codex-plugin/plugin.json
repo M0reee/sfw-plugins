@@ -1,6 +1,6 @@
 {
   "name": "ontology",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "description": "Ontology 公司脉络图：文件、人、流程在哪、谁负责，这件事怎么办、找谁、走哪条审批，先在这里查。",
   "author": {
     "name": "Ontology"
@@ -19,10 +19,11 @@
     "displayName": "Ontology",
     "developerName": "Ontology",
     "shortDescription": "查公司脉络：东西在哪、谁负责、找谁、走哪条审批",
-    "longDescription": "Ontology 公司脉络图：文件、人、流程在哪、谁负责，这件事怎么办、找谁、走哪条审批，先在这里查。只读查询公司的 Ontology 服务；每次调用由 SFW 发一张短时凭条证明是你本人。",
+    "longDescription": "Ontology 公司脉络图：文件、人、流程在哪、谁负责，这件事怎么办、找谁、走哪条审批，先在这里查。查询公司的 Ontology 服务，不改公司的任何数据；你明确要一份文件的原件时，把它存到这台电脑的“下载/Ontology”里。每次调用由 SFW 发一张短时凭条证明是你本人。",
     "category": "Productivity",
     "capabilities": [
-      "Read"
+      "Read",
+      "Write"
     ]
   }
 }
