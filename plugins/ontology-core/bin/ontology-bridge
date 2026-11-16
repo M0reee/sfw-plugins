@@ -31,4 +31,5 @@ if [ ! -x "$bin" ]; then
   chmod 700 "$tmp/ontology-bridge"
   bin="$tmp/ontology-bridge"
 fi
+# 不把 "$@" 往下传：--config 决定凭条发往哪台 Core，只认插件自带的这一份。
 exec "$bin" --config "$conf"

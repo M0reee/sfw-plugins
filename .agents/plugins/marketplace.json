@@ -23,8 +23,8 @@
       "category": "Productivity"
     },
     {
-      "name": "ontology",
-      "source": { "source": "local", "path": "./plugins/ontology" },
+      "name": "ontology-core",
+      "source": { "source": "local", "path": "./plugins/ontology-core" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
       "category": "Productivity"
     }

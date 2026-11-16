@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "ontology": {
+    "ontology-core": {
       "command": "/bin/sh",
       "args": [
         "./bin/ontology-bridge"
