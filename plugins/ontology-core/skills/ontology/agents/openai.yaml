@@ -1,0 +1,4 @@
+interface:
+  display_name: "Call - Ontology"
+  short_description: "先查记忆再查 Ontology 答公司里的事，文件照规矩交进 Ontology"
+  default_prompt: "用 $ontology（Call - Ontology）：先查记忆，再查 Ontology，两边各标出处，对不上列出来让我选；附来的文件照技能里的规矩交进 Ontology，扫描件、照片先出文字稿等我确认。"
