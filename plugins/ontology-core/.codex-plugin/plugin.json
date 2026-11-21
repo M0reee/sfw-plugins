@@ -1,6 +1,6 @@
 {
   "name": "ontology-core",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Ontology 公司脉络图：文件、人、流程在哪、谁负责，这件事怎么办、找谁、走哪条审批，先在这里查。",
   "author": {
     "name": "Ontology"
