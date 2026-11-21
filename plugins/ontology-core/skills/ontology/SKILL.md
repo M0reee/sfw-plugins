@@ -193,7 +193,8 @@ SFW 公司模式、记忆开着时，会话里有 `memocore_search`、`memocore_
 ## 在 SFW 里
 
 - SFW 聊天只显示 Markdown 的标题、表格、引用块、代码块、链接。画不了 mermaid；工具返回在界面上只是折叠的 JSON，用户不会看。所以不贴 mermaid，不把 JSON 原样贴给用户，调 `ontology_trace` 时不加 `view`。
-- **确认卡。** 每次调用 Ontology 的工具，SFW 会弹一张确认卡。`ontology_trace`、`ontology_resolve`、`ontology_status` 只读，`ontology_report` 只写"待核"，`ontology_submit` 交的只照文件原来的分享给人看：这五个卡上有"始终允许"就选它。`ontology_fetch`（取原件，文件存到这台电脑的"下载/Ontology"里）不一样：请用户每次看清是哪份文件再点允许，不要选"始终允许"。
+- **确认卡。** 每次调用 Ontology 的工具，SFW 会弹一张确认卡。`ontology_trace`、`ontology_resolve`、`ontology_status` 只读，`ontology_report` 只写"待核"，`ontology_submit` 交的只照文件原来的分享给人看：这五个卡上有"始终允许"就选它。`ontology_fetch`（取原件）不一样：请用户每次看清是哪份文件再点允许，不要选"始终允许"。
+- **取原件时工具说"Core 不存原件"**：照它的话告诉用户，原件在原来放它的地方（原来的文件夹、群，或交上来的人那里），请他去那里取；不改用别的连接器去找；他要的是内容，用原文片段回答。以后 Ontology 接上原件了，取到的文件存在这台电脑的"下载/Ontology"里，照工具给的链接写。
 - **返回里有 `hints` 时**（建议用飞书、ERP 的连接器取正文）：手上有对应的连接器才用，`args` 照抄，一两次就停。不要用应用身份列文件夹：正文只按 Ontology 给的单个文件编号去取。连接器带回图上没有的文件，不说名字，也不去读。
 - **连不上时。** 工具报错：把报错那句话换成大白话告诉用户，再调一次 `ontology_status` 看通不通。还是不通：告诉用户"这次没经过 Ontology，没问到"，这不等于没有。不要改用飞书或别的连接器自己翻文件夹。
 - 返回的 `contract` 不是 `coreline/0.1` 时，告诉用户"回答可能有对不上的地方"，然后照常用。
