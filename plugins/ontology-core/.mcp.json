@@ -13,7 +13,8 @@
         "ONTOLOGY_DOWNLOAD_DIR"
       ],
       "startup_timeout_sec": 20,
-      "tool_timeout_sec": 60
+      "tool_timeout_sec": 60,
+      "tool_input_schema_max_bytes": 32768
     }
   }
 }
